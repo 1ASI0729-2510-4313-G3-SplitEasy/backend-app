@@ -12,6 +12,7 @@ import java.math.BigDecimal;
 @Setter
 @NoArgsConstructor
 @Entity
+@Table(name = "users")
 public class User extends AuditableAbstractAggregateRoot<User> {
 
     @Id
