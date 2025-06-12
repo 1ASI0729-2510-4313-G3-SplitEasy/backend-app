@@ -10,6 +10,7 @@ import lombok.Setter;
 @Setter
 @NoArgsConstructor
 @Entity
+@Table(name = "households")
 public class Household extends AuditableAbstractAggregateRoot<Household> {
 
     @Id
